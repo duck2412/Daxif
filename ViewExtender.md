@@ -17,17 +17,13 @@ View.GenerateFiles(Env.dev, Path.daxifRoot,
 Then the declaration files are loaded.
 
 ```fsharp
-#load @"_Config.fsx"
-open _Config
-open DG.Daxif
+#load @"viewExtenderData\_ViewGuids.fsx" 
+#load @"viewExtenderData\_EntityRelationships.fsx" 
+#load @"viewExtenderData\_EntityAttributes.fsx"
 
-View.GenerateFiles(Env.dev, Path.daxifRoot,
-  solutions = [|
-    SolutionInfo.name
-    |],
-  entities = [|
-    // eg. "systemuser"
-    |])
+open ViewGuids
+open EntityAttributes
+open EntityRelationships
 ```
 
 The rest of the script should contain your declarations. The Views module contains definitions for each view grouped by entity. So to get a view structure write the following.
