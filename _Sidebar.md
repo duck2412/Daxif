@@ -17,6 +17,7 @@
 * [[SolutionImportArg]]
 * [[SolutionImportDev]]
 * [[SolutionImportTest]]
+* [[ViewExtender]]
 * [[SolutionPack]]
 * [[WebResouresSyncDev]]
 * [[WorkflowSyncDev]]
