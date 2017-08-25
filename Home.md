@@ -13,16 +13,3 @@ will instruct you on how you can setup your computer for running these F# script
 
 Afterwards check out the example scripts in the sidebar to review what
 Delegate's DAXIF# library can be used for, and how effective it can be!
-
-## Interface documentation
-
-Besides what is found in the [API Reference](reference/index.html), here is
-a list of the signature files for each of the available models in the project 
-with some extra documentation.
-
-* [Data](Data.html)
-* [Solution](Solution.html)
-* [Serialization](Serialization.html)
-* [Translations](Translations.html)
-* [WebResources](WebResources.html)
-* [Info](Info.html)
