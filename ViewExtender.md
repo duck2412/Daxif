@@ -32,7 +32,7 @@ The rest of the script should contain your declarations. The Views module contai
 Views.Account.MyParentView
 |> View.Parse Env.dev
 ```
-The "MyParentView" is know parsed and ready to be used. In order to copy this to another view, use the changeId function.
+The "MyParentView" is now parsed and ready to be used. In order to copy this to another view, use the changeId function.
 
 ```fsharp
 Views.Account.MyParentView
