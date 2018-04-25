@@ -3,6 +3,10 @@
 * [[F# Setup]]
 * [[Plugin Registration Setup]]
 
+**General**
+
+* [[Extended Solution]]
+
 **Example Scripts**
 * [[_Config]]
 * [[CountEntities]]
