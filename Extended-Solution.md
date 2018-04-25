@@ -2,7 +2,7 @@ DAXIF# export and import of solutions have the option to use extended solution. 
 
 In general, the standard import and export only export some records and will create or update the records import. This means that deleted plugins, workflows, or web resources will still be present in the target environment after a successful import. Leading to unnecessary bloat in all upstream environments. Extended solution makes sure that the state of selected entities are carried over to target, along with cleanup of certain entity records based on what is present in the source.
 
-# What is extended?
+# What does extended solution handle?
 The following entity states are exported and updated:
 * Views
 * Workflows
