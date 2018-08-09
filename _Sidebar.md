@@ -19,8 +19,6 @@
 * [[SolutionExportDev]]
 * [[SolutionExtract]]
 * [[SolutionImportArg]]
-* [[SolutionImportDev]]
-* [[SolutionImportTest]]
 * [[ViewExtender]]
 * [[SolutionPack]]
 * [[WebResouresSyncDev]]
