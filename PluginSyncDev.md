@@ -1,6 +1,8 @@
-# PluginSyncDev
-
 ```fsharp
+(**
+PluginSyncDev
+*)
+
 #load @"_Config.fsx"
 open _Config
 open DG.Daxif

@@ -1,5 +1,8 @@
-# Count entities
 ```fsharp
+(**
+Count entities
+*)
+
 #load @"_Config.fsx"
 open _Config
 open DG.Daxif

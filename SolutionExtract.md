@@ -1,5 +1,7 @@
-# SolutionExtract
 ```fsharp
+(**
+SolutionExtract
+*)
 #load @"_Config.fsx"
 open _Config
 open DG.Daxif
