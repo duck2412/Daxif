@@ -45,3 +45,6 @@ Environment.Create(
 ```
 
 All of these examples pass the command line arguments to the authentication. This is done such that a DevOps pipeline can overwrite the values. 
+
+### Creating App registration and Application user
+If you have never made an App Registration you're probably wondering what an "App id" is. We recommend following [this guide](https://www.powerobjects.com/blog/2018/05/18/authentication-dynamics-365-using-azure-apps/) to create an App Registration in Azure and a corresponding Application User in CDS
