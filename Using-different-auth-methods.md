@@ -44,6 +44,16 @@ Environment.Create(
     )
 ```
 
+If you have a custom connection string that is not a constructor on the CrmServiceClient you can pass a connection string directly
+```fsharp
+Environment.Create(
+      name = "Development",
+      method = ConnectionType.ConnectionString,
+      connectionString = "xxx",
+      args = fsi.CommandLineArgs
+    )
+```
+
 All of these examples pass the command line arguments to the authentication. This is done such that a DevOps pipeline can overwrite the values. 
 
 ### Creating App registration and Application user
