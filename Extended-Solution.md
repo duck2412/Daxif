@@ -25,7 +25,7 @@ To use extended solution, simply set `extended=true` when both exporting and imp
 // Export unmanaged
 Solution.Export(Env.dev, SolutionInfo.name, Path.Daxif.crmSolutionsFolder, managed = false, extended = true)
 
-// Import managed
+// Export managed
 Solution.Export(Env.test, SolutionInfo.name, Path.Daxif.crmSolutionsFolder, managed = false, extended = true)
 ```
 
