@@ -1,5 +1,5 @@
 # Custom API
-[This is a preview feature. There are some limitations. ]
+[This is a preview feature. There are some limitations.]
 
 Creations of custom apis can be done using DAXIF#. The registrations are similar to plugin registrations. 
 ## How to use 
@@ -62,10 +62,8 @@ The APIs and its dependencies is then a part of your solution, and will be deplo
 
 ## Limitations
 There is some limitations to the current setup: 
-- [ ] The plugintype entity are used both by the existing plugin registrations and the newly introduced custom apis. These are currently handled in a non optimal way in terms of creation/updates and deletion. 
-- [ ] There might either be some properties that are not relevant for users to define. 
+- [ ] There might be some properties that are not relevant for users to define. 
 - [ ] There might lack some properties that the user want to define but can not. 
+- [ ] Names of customapis, requestparameters and responseproperties have to be unique. 
 - [ ] Certain combination of configurations should not be possible according to the documentation. These should result in failures when trying to sync. 
-- [ ] Name/Displayname/unique of customapi/properties/parameters need to be alligned. 
-- [ ] Can not create apis/properties/parameters with same name.
-- [ ] If APIs are deployed across environments then you might see the import failing when you make critical changes to the configuration in DEV. Currently the cleanup of existing customapis/properties/parameters is not performed by the tool, and must therefore be performed manually. This can also happen when syncing to dev.  
+- [ ] Name/Displayname/unique of customapi/properties/parameters need to be alligned.  
