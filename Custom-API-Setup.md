@@ -3,7 +3,7 @@
 
 Creations of custom apis can be done using DAXIF#. The registrations are similar to plugin registrations. 
 ## How to use 
-You need to extend your api using [CustomAPI.cs][customapi-gist]: 
+You need to extend your api using <a href="https://github.com/delegateas/Daxif/blob/d3dcb90e14645cfcd699b237b86bd4f438fb61df/src/Delegate.Daxif.Scripts/Resources/CustomAPI.cs" title="CustomAPI.cs">CustomAPI.cs</a>: 
  ```csharp
     public class MyCustomAPI : CustomAPI {
         public MyCustomAPI()
