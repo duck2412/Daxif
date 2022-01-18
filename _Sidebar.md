@@ -2,6 +2,7 @@
 
 * [[F# Setup]]
 * [[Plugin Registration Setup]]
+* [[Custom API Setup]]
 * [[Using different auth methods]]
 
 **General**
