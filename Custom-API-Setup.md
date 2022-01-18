@@ -1,4 +1,5 @@
 # Custom API
+[This is a preview feature. There are some limitations. ]
 
 Creations of custom apis can be done using DAXIF#. The registrations are similar to plugin registrations. 
 ## How to use 
