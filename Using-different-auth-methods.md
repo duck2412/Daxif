@@ -54,6 +54,8 @@ Environment.Create(
     )
 ```
 
+Further details on connection string parameters can be found [here](https://docs.microsoft.com/en-us/powerapps/developer/data-platform/xrm-tooling/use-connection-strings-xrm-tooling-connect).
+
 All of these examples pass the command line arguments to the authentication. This is done such that a DevOps pipeline can overwrite the values. 
 
 ### Creating App registration and Application user
