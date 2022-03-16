@@ -6,3 +6,7 @@ F# > version 4.1 is required for running DAXIF. Follow the instructions on the f
 
 If you are still using Visual Studio 2017, you can enable this in the Visual Studio installer:
 > In the “Individual components” tab: under the “Development activities” category, check “F# language support”.
+
+If you are using Visual Studio 2022, you need to disable `Use .Net Core Scripting`
+> This is done by opening VS2022 and go to the “F# Interactive” tab: under the `Tools`, `Options`, `F# Tool`, `F# Interactive` and changing `Use .Net Core Scripting` to `False`.
+> Reset VS2022 or right-click `F# Interactive` window and select `Reset Interactive Session`.
