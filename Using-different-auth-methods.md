@@ -46,7 +46,7 @@ Environment.Create(
 ```
 
 ### Creating App registration and Application user
-If you have never made an App Registration you're probably wondering what an "App id" is. We recommend following [this guide](https://www.powerobjects.com/blog/2018/05/18/authentication-dynamics-365-using-azure-apps/) to create an App Registration in Azure and a corresponding Application User in CDS
+If you have never made an App Registration you're probably wondering what an "App id" is. We recommend following [Microsoft's documentation](https://docs.microsoft.com/en-us/power-apps/developer/data-platform/authenticate-oauth#connect-as-an-app) to create an App Registration in Azure and a corresponding Application User in CDS.
 
 ## ConnectionString
 If you have a custom connection string that is not a constructor on the CrmServiceClient you can pass a connection string directly
