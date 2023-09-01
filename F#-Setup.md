@@ -10,3 +10,6 @@ If you are still using Visual Studio 2017, you can enable this in the Visual Stu
 If you are using Visual Studio 2022, you need to disable `Use .Net Core Scripting`
 > This is done by opening VS2022 and go to the “F# Interactive” tab: under the `Tools`, `Options`, `F# Tool`, `F# Interactive` and changing `Use .Net Core Scripting` to `False`.
 > Reset VS2022 or right-click `F# Interactive` window and select `Reset Interactive Session`.
+
+If you are using Daxif v5.1.1 or later (maybe as low as v4.7.2) the vm image `windows-2019` wont work
+> Use the vm image `windows-2022` or `windows-latest` instead
